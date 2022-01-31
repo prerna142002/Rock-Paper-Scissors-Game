@@ -1,0 +1,229 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+*
+{
+    /* background: black; */
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    /* background: url('side.jpg'); */
+}
+nav{
+    background: rgb(108, 191, 230);
+    height: 4rem;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+.nav{
+    
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 3rem;
+    /* justify-content: space-around; */
+    
+}
+.nav-link{
+    height: 100%;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.877);
+    text-align: center;
+    padding:1.5rem;
+    display:inline-block;
+    /* padding-top: 1rem; */
+    font-size: large;
+    transition: all 0.4s ease-out;
+}
+
+.nav-link:hover{
+    background: rgba(255, 255, 255, 0.685);
+    color: rgb(103, 183, 219);
+    padding-bottom: 0px;
+    margin-bottom:0px;
+    /* transition-timing-function: ease-out;
+    transition-timing-function: ease-in-out; */
+    transition: all 0.5s ease-in;
+}
+
+#contact{
+    position: relative;
+    margin-top: 2rem;
+
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    width:100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    /* background: url('img/payrment.jpg') no-repeat center center/cover; */
+}
+
+#contact-box{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+    flex-direction: row;
+}
+
+
+#contact-box form{
+    width: 40%;
+}
+
+
+/* #contact-box label{
+    font-size: 1rem;
+    font-weight: 500;
+} */
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    border-radius: 0.3rem;
+}
+
+#contact-box input:focus {
+    /* background-color: yellow; */
+    border: 4px solid rgb(103, 183, 219);
+    /* width: 170%; */
+}
+
+footer{
+    position:sticky;
+    background: black;
+    color: white;
+    padding:9px 20px;
+}
+
+/* Utility class */
+.h-primary{
+    font-size: 3.8rem;
+    /* padding:12px; */
+}
+/* Utility class */
+.h-secondary{
+    font-size: 2.8rem;
+    /* padding:12px; */
+}
+
+.btn{
+    padding:6px 20px;
+    border:2px solid white;
+    background-color: brown;
+    color: white;
+    margin:17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+}
+
+form div{
+    padding: 0.5rem;
+    /* font-size:10rem; */
+    font-weight: 400;
+}
+
+#contact-box label{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    font-family: 'Lato', sans-serif;
+}
+
+#contact-box ::placeholder{
+    font-size: 1.05rem;
+    padding-left: 1rem;
+    font-style: italic;
+}
+
+h1{
+    /* background: black; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    /* fotn */
+}
+
+.dob{
+    display: flex;
+    flex-direction: row;
+}
+
+.dob div{
+    margin: 0.5rem;
+}
+
+.c{
+    display: inline-block;
+    margin: 0.4rem;
+    padding: 0.1rem;
+}
+
+#sbtn{
+    cursor: pointer;
+    transition: .35s ease-in-out;
+}
+
+#sbtn:hover{
+    background:rgb(103, 183, 219);
+    transition: all 0.5s ease-in;
+}
+
+/* .newcss{
+    width: 0.5rem;
+} */
+
+/* .cont-img{
+    
+}
+
+#contact-inside{
+    width:1005;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
+.inside-contt{
+    background: red;
+}
+
+
+/* .reg-cont-box{
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+    
+
+/* #reg-form-div{
+    width:100%;
+}
+
+#reg-form{
+    width:100%;
+} */
